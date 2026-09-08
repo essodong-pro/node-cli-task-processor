@@ -1,0 +1,25 @@
+{
+  "name": "cli-task-processor",
+  "version": "1.0.0",
+  "description": "A Node.js command-line utility for task processing and analysis (CSE 310).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/essodong-pro/node-cli-task-processor.git"
+  },
+  "keywords": [],
+  "author": "Essodong N’GNAMA",
+  "license": "ISC",
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/essodong-pro/node-cli-task-processor/issues"
+  },
+  "homepage": "https://github.com/essodong-pro/node-cli-task-processor#readme",
+  "dependencies": {
+    "axios": "^1.20.0",
+    "chalk": "^6.0.0"
+  }
+}
