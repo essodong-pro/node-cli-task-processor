@@ -31,7 +31,8 @@ npm install
 Run the application from your terminal using Node:
 
 node index.js
-Demo Video Walkthrough
+
+# Demo Video Walkthrough
 Video Link: [Insert your Zoom / cloud storage video link here]
 
 A 4–5 minute demonstration of the software running and a complete walkthrough of the codebase.
