@@ -18,7 +18,7 @@ Make sure you have the following installed on your machine:
 ## Installation & Setup
 1. Clone this repository to your local machine:
    ```bash
-   git clone [https://github.com/your-username/node-cli-task-processor.git](https://github.com/your-username/node-cli-task-processor.git)
+   git clone [https://github.com/essodong-pro/node-cli-task-processor.git](https://github.com/essodong-pro/node-cli-task-processor.git)
 
 # Navigate into the project directory:
 
