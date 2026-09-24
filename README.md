@@ -1,43 +1,39 @@
-# Node.js CLI Task & Data Processor
+# Overview
 
-## Overview
-This command-line utility tool is built with **Node.js** to read, filter, process, and analyze mock task and data sets. It demonstrates core modern JavaScript concepts including ES6 array iteration methods, recursive functions, asynchronous data fetching via external APIs, and graceful exception handling.
+This project is a Node.js command-line program that works with task data from a public API. The program retrieves tasks, checks the task information, finds unfinished tasks, calculates a total of task IDs, and uses recursion to calculate a task score.
 
-## Features
-- **Styled Terminal Output:** Uses the `chalk` library to render colorful, readable logs and status messages.
-- **Data Fetching:** Integrates the `axios` library to pull remote mock data.
-- **ES6 Array Processing:** Leverages `.filter()`, `.map()`, and `.reduce()` to summarize and transform datasets.
-- **Recursive Priority Scoring:** Implements a recursive function to calculate complex task priority weights.
-- **Error Handling:** Features custom `try...catch` blocks and `throw new Error()` statements to manage invalid inputs or network failures gracefully.
+I wrote this software to improve my understanding of JavaScript and practice using JavaScript outside of a web browser. The project helped me practice functions, asynchronous programming, arrays, recursion, error handling, and using JavaScript libraries.
 
-## Prerequisites
-Make sure you have the following installed on your machine:
-- [Node.js](https://nodejs.org/) (v16+ recommended)
-- npm (comes bundled with Node.js)
+The program uses the Axios library to request task data from the JSONPlaceholder API. It also uses Chalk to make the information displayed in the terminal easier to read.
 
-## Installation & Setup
-1. Clone this repository to your local machine:
-   ```bash
-   git clone [https://github.com/essodong-pro/node-cli-task-processor.git](https://github.com/essodong-pro/node-cli-task-processor.git)
+The demonstration video shows the program running and explains the main parts of the JavaScript code, including the array methods, recursion, API request, and error handling.
 
-# Navigate into the project directory:
+[Software Demo Video](https://byupathwayworldwideprod-my.sharepoint.com/:v:/g/personal/engnama_byupathway_edu/IQCgyVbJoBROSqJ2OLWNoCUqAYBSNRY_ubkMtlf4OXs-VI8?e=O2cSoe)
 
-cd node-cli-task-processor
-# Install the required dependencies (axios and chalk):
+# Development Environment
 
-npm install
+I developed this project using Visual Studio Code and Node.js. I used the terminal to install packages, run the program, and test the results.
 
-# Usage
-Run the application from your terminal using Node:
+The programming language used for this project is JavaScript. The project uses Node.js to run JavaScript from the command line.
 
-node index.js
+The libraries used in the project are:
 
-# Demo Video Walkthrough
-Video Link: [https://byupathwayworldwideprod-my.sharepoint.com/:v:/g/personal/engnama_byupathway_edu/IQCOvET2gxziTKpwab1vNrIjAYkrUEdRfPdQR4nQZ-TLJmw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D&e=gIBo5r]
+* Axios - used to request task data from the JSONPlaceholder API.
+* Chalk - used to add colors and formatting to terminal output.
 
-A 4–5 minute demonstration of the software running and a complete walkthrough of the codebase.
+# Useful Websites
 
-# Author
-Essodong N’GNAMA
+* [MDN JavaScript Guide](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [MDN Array Methods](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array)
+* [MDN Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Functions)
+* [MDN Async Functions](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function)
+* [Axios Documentation](https://axios-http.com/)
+* [JSONPlaceholder](https://jsonplaceholder.typicode.com/)
 
-CSE 310 – Applied Programming
+# Future Work
+
+* Add more ways to sort and organize the tasks.
+* Allow users to add their own tasks from the command line.
+* Add more task information, such as priority and due dates.
+* Add more error checking for invalid task data.
+* Allow the user to choose which type of task information to display.
